@@ -150,7 +150,9 @@ export const Navbar = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+         {isScrolled &&
+         ( 
+         <div className="md:hidden">
             <motion.button
               onClick={() => setIsMobileOpen(!isMobileOpen)}
               className="text-white hover:text-purple-300 focus:outline-none focus:text-purple-300 transition-colors duration-200"
@@ -176,6 +178,8 @@ export const Navbar = () => {
               </svg>
             </motion.button>
           </div>
+          )
+        }
         </div>
 
         {/* Mobile Navigation */}

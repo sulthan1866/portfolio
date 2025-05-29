@@ -36,8 +36,8 @@ export const frontendProjects:Project[] = [
     description: "A gallery website for CollegeTips.in, showcasing student photos with a modern design and smooth animations.",
     image: "https://www.collegetips.in/images/logo.jpg",
     tags: ["React.js","TypeScript","TailwindCSS"],
-    liveUrl: "/temp",
-    githubUrl: "/404",
+    liveUrl: "https://college-tips-cmk5.vercel.app/",
+    githubUrl: "https://github.com/sulthan1866/CollegeTips/",
     category: "Web App"
   },
   {
