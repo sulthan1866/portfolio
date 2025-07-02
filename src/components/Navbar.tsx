@@ -48,7 +48,7 @@ export const Navbar = () => {
         setTimeout(() => {
             setIsMobileOpen(false);
 
-        }, 50);
+        }, 350);
     };
 
     const navVariants = {
